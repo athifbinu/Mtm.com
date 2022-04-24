@@ -1,0 +1,194 @@
+body
+{
+    margin: 10px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+.container
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+     background-color: #333;
+    color: #fff;
+
+}
+.brand-tittle
+{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li
+{
+    list-style: none;
+}
+.navbar-links li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li:hover
+{
+    background-color:#555;
+}
+.toggle-button
+{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.vid
+{
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+
+
+
+.profile-card
+{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.order-text
+{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: cursive;
+    color: #fff;
+}
+.line
+{
+    color: #fff;
+    text-align: center;
+    border: 2px #2da1c4 ;
+
+}
+
+.footer
+{
+    width: 100%;
+    
+}
+.footer-contents
+{
+    color: #fff;
+    text-align: center;
+}
+
+
+.img-row
+{
+    width: 100%;
+    height: 43vh;
+}
+.image-section
+{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
+
+
+
+@media (max-width:750px) {
+    .image-section
+    {
+        display: grid;
+    }
+    
+}
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    
+    .profile-card
+    {
+        display: grid;
+    }
+}
+@media (max-width:576px) {
+    .container
+    {
+        display: grid;
+
+    }
+    
+}
+
+
+/* navbarb responsive */
+
+@media (max-width: 650px) {
+
+    .navbar-links
+  {
+      
+      width: 100%;
+
+  }   
+  .navbar
+  {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+   .navbar-links ul
+  {   
+       width: 100%;         
+      flex-direction: column;
+
+  } 
+
+   .navbar-links li
+  {
+      text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
