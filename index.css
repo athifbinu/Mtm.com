@@ -160,12 +160,14 @@ body
     width: 100%;
     height: auto;
     flex: 50%;
+   
 }
 
 .contact-map iframe
 {
     width: 100%;
     height: 100%;
+    
   
 }
 
@@ -175,10 +177,13 @@ body
     height: auto;
     flex: 50%;
     text-align: center;
+    
+    
 }
 .contact-form h1
 {
     margin-bottom: 10px;
+    
 }
 .contact-form-text
 {
@@ -191,12 +196,15 @@ body
     margin-bottom: 20px;
     padding: 15px;
     
+    
+    
 
 
 }
 .contact-form-text::placeholder
 {
     color: #aaa;
+
 
 }
 
@@ -213,11 +221,13 @@ body
     margin-bottom: 20px;
     padding: 15px;
     
+    
 
 }
 .contact-form-textarea::placeholder
 {
     color: #aaa;
+
     
 }
 .contact-form-btn
@@ -232,34 +242,12 @@ body
     padding: 10px 0;
     cursor: pointer;
     font-size: 18px;
+    
 
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* responsive side */
 
 
 @media (max-width:750px) {
